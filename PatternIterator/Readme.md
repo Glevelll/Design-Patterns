@@ -1,0 +1,7 @@
+# Iterator
+
+The folder called [Iterator1](https://github.com/Glevelll/Design-Patterns/tree/main/PatternIterator/Iterator1) demonstrates how this pattern works. The bottom line is that the waitress sorts through the menus of two restaurants, the menus of which are implemented through an array and a list. In folder 1 of this project, Iterator is implemented as a hand-written interface, and it is more difficult for the waitress to list the menu, since each restaurant has its own data type. In the second folder, the Picker is implemented as a built-in and the menu output is more practical, since the Menu interface appears here, which makes it possible to combine several menus from different restaurants.
+
+In the folder called [IteratorProject](https://github.com/Glevelll/Design-Patterns/tree/main/PatternIterator/IteratorProject), the objects are two car dealerships: BMW and Mercedes. The owners decided to combine two car dealerships and the consultant, at the request of the client, is forced to offer a catalog of two car dealerships, the data of which is stored in different forms: in an array and in a list. To do this, the built-in Iterator helps the consultant to display all the information about cars from different salons: Name, model, year of manufacture and price.
+
+The [Iterrr](https://github.com/Glevelll/Design-Patterns/tree/main/PatternIterator/Iterrr) folder contains a program that iterates over values of different types.
