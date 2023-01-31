@@ -1,0 +1,16 @@
+public class Roof {
+	String name;
+	
+	public Roof(String material) {
+		this.name = "Roof made out of " + material;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String toString() {
+		return this.name;
+	}
+}
+
+ 
+ 
