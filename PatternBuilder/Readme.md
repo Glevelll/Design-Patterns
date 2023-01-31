@@ -1,8 +1,7 @@
-# Строитель
+# Builder
 
-Строитель — порождающий шаблон проектирования, который предоставляет способ создания составного объекта.
+A builder is a generative design pattern that provides a way to create a composite object.
 
-В файле [Builder](https://github.com/Glevelll/Design-Patterns/tree/main/PatternBuilder/Builder) пример того, как с помощью Строителя можно написать программу для создания машины. Есть класс, из чего должна состоять машина, а также классы для каждой из частей. Есть типы машин и есть инструкции строителю, как сделать тот иили иной автомобиль. Строителю передают тип машины, и он собирает автомобиль из частей, которые ему заданы в инструкции к конкретному типи машины.
+The [Builder file](https://github.com/Glevelll/Design-Patterns/tree/main/PatternBuilder/Builder) contains an example of how the Builder can be used to write a program to create a machine. There is a class of what the car should consist of, as well as classes for each of the parts. There are types of cars and there are instructions for the builder on how to make a certain car. The builder is given the type of car, and he assembles the car from the parts that are given to him in the instructions for a particular type of car.
 
-В [BuilderProj](https://github.com/Glevelll/Design-Patterns/tree/main/PatternBuilder/BuilderProj) можно найти легкий пример Строителя, который приближен к реализации Lombok. Есть класс Person, для этого класса задается строитель для каждого отдельного поля. В Main прописывается какие данные присвоить тому или иному полю. Таким образом создается человек.
-В этом же файле пример построения дома. Есть разные типы домов, для каждого дома есть свои составляющие: стены, крыша и окна. Разумеется, у каждого вида дома свой набор составляющих. Мы даем строителю задание построить тот или иной дом, и, в зависимости от типа дома, он строит его, исходя из материалов, которые этому дому присвоены.
+In BuilderProj, you can find a lightweight example of a Builder that is close to the Lombok implementation. There is a Person class, for this class a builder is set for each individual field. Main specifies what data to assign to a particular field. This is how a person is created. In the same file, an example of building a house. There are different types of houses, each house has its own components: walls, roof and windows. Of course, each type of house has its own set of components. We give the builder the task to build this or that house, and, depending on the type of house, he builds it, based on the materials that are assigned to this house.
