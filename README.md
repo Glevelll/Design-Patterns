@@ -20,6 +20,9 @@ The Factory method pattern proposes to create objects not directly using the new
 
 An abstract factory declares methods for creating various abstract products. Concrete factories each refer to their product variation and implement abstract factory methods, allowing you to create all products of a particular variation.
 
+# [Iterator](https://github.com/Glevelll/Design-Patterns/tree/main/PatternIterator)
+An Iterator is a behavioral pattern that allows you to sequentially traverse a complex collection without revealing the details of its implementation. Thanks to the Iterator, the client can iterate through different collections in the same way, using a single iterator interface.
+
 # [Observer](https://github.com/Glevelll/Design-Patterns/tree/main/PatternObserver)
 A behavioral design pattern implements a mechanism for a class that allows an object of this class to receive notifications about changes in the state of other objects and thereby observe them.
 
